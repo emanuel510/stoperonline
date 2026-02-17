@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    background-attachment: fixed;
+    text-align: center;
+}
+#div1{
+    border: 10px solid;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 0);
+    max-width: 900px;
+    height: 300px; 
+    margin: 0 auto;    
+}
+#Stoper{
+    font-size: 70px;
+    font-family: "Orbitron";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: font-size 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Stoper:hover{
+    font-size: 85px;
+}
+#buttons button{
+    font-size: 30px;
+    font-family: "Orbitron";
+    font-weight: bold;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+#startButton{
+    background-color: rgb(0, 255, 0);
+    border: none;
+    border-radius: 50px;
+    transition: background-color 1s;
+    transition: font-size 1s;
+}
+#startButton:hover{
+    background-color: rgb(0, 175, 0);
+    font-size: 35px;
+}
+#stopButton{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 50px;
+    transition: background-color 1s;
+    transition: font-size 1s;
+}
+#stopButton:hover{
+    background-color: rgb(175, 0, 0);
+    font-size: 35px;
+}
+#resetButton{
+    background-color: rgb(0, 0, 255);
+    border: none;
+    border-radius: 50px;
+    transition: background-color 1s;
+    transition: font-size 1s;
+}
+#resetButton:hover{
+    background-color: rgb(0, 0, 175);
+    font-size: 35px;
+}
+
